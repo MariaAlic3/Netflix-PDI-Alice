@@ -4,7 +4,7 @@
         <application display_value="Netflix">3c1145b883ff6210faf03596feaad372</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1093514_netflix_suggestion">approval=approved^EQ<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+        <filter table="x_1093514_netflix_suggestion">state=4^EQ<item display_value="Reproved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -12,32 +12,32 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Await Administrator's Approval</mobile_title>
+        <mobile_title>Reproved</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1093514_netflix_suggestion</name>
-        <order>1100</order>
+        <order>1300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1093514_netflix.administrator</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-02 20:16:29</sys_created_on>
+        <sys_created_on>2025-09-03 13:59:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c8dc45f48333a210faf03596feaad386</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Awaiting Administrator's Approval</sys_name>
+        <sys_id>afcf3c0d8373e210faf03596feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name>sys_app_module_c8dc45f48333a210faf03596feaad386</sys_update_name>
+        <sys_update_name>sys_app_module_afcf3c0d8373e210faf03596feaad3d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 12:57:15</sys_updated_on>
+        <sys_updated_on>2025-09-03 13:59:10</sys_updated_on>
         <timeline_page/>
-        <title>Awaiting Administrator's Approval</title>
+        <title>Reproved</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
