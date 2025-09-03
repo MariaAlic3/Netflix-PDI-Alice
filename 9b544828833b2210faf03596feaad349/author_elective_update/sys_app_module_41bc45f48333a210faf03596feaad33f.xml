@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Netflix">3c1145b883ff6210faf03596feaad372</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1093514_netflix_suggestion">approval=^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Await Administrator's Approval</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1093514_netflix_suggestion</name>
+        <order>1200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 20:16:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41bc45f48333a210faf03596feaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_app_module_41bc45f48333a210faf03596feaad33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:16:00</sys_updated_on>
+        <timeline_page/>
+        <title>Approved</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sys_app_module_41bc45f48333a210faf03596feaad33f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Netflix">3c1145b883ff6210faf03596feaad372</application><assessment/><device_type/><filter table="x_1093514_netflix_suggestion">approval=^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Await Administrator's Approval</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1093514_netflix_suggestion</name><order>1200</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-02 20:16:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>41bc45f48333a210faf03596feaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approved</sys_name><sys_overrides/><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sys_app_module_41bc45f48333a210faf03596feaad33f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-02 20:16:00</sys_updated_on><timeline_page/><title>Approved</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2134998602</payload_hash>
+        <record_name>Approved</record_name>
+        <reverted_from/>
+        <source>db1ed3e0833b6210faf03596feaad39e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 20:16:00</sys_created_on>
+        <sys_id>45bc45f48333a210faf03596feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990c1277de0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:16:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>49bc45f4b433a21002d718d72ad76540</update_guid>
+        <update_guid_history>49bc45f4b433a21002d718d72ad76540:-2134998602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Approved">25ec45f48333a210faf03596feaad34f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 20:16:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>15b28d5d53ac44b683389959e1319f64</sys_id>
+        <sys_metadata>41bc45f48333a210faf03596feaad33f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_41bc45f48333a210faf03596feaad33f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_41bc45f48333a210faf03596feaad33f">45bc45f48333a210faf03596feaad341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:16:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

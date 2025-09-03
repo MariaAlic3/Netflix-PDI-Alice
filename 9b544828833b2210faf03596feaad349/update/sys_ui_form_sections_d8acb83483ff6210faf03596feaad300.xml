@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d8acb83483ff6210faf03596feaad300" sys_domain="global" table="x_1093514_netflix_suggestion" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 19:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acacb83483ff6210faf03596feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1093514_netflix_suggestion" name="x_1093514_netflix_suggestion" sys_domain="global" view="Default view">d8acb83483ff6210faf03596feaad300</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1093514_netflix_suggestion" sys_domain="global" view="Default view">3596b03c83bf6210faf03596feaad3db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 19:05:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 19:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8acb83483ff6210faf03596feaad304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1093514_netflix_suggestion" name="x_1093514_netflix_suggestion" sys_domain="global" view="Default view">d8acb83483ff6210faf03596feaad300</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1093514_netflix_suggestion" sys_domain="global" view="Default view">5cac783483ff6210faf03596feaad3ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 19:05:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1093514_netflix_suggestion</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 19:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8acb83483ff6210faf03596feaad300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1093514_netflix_suggestion</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d8acb83483ff6210faf03596feaad300</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 19:05:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
