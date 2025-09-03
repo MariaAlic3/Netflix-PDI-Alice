@@ -18,7 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>title</dynamic_value_dot_walk_path>
+        <dynamic_value_dot_walk_path>synopsis</dynamic_value_dot_walk_path>
         <dynamic_value_field display_value="Title of Media:">1450020183f7e210faf03596feaad390</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
@@ -58,8 +58,8 @@
         <record/>
         <record_producer_table>x_1093514_netflix_review</record_producer_table>
         <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>null</reference_qual>
+        <reference_qual_condition>null</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 20:13:15</sys_created_on>
         <sys_id>c765d649833be210faf03596feaad3e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Synopsis:</sys_name>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name>item_option_new_c765d649833be210faf03596feaad3e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:13:15</sys_updated_on>
+        <sys_updated_on>2025-09-03 20:23:06</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
