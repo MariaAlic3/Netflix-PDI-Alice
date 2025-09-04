@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Media Review">3f5e7d4583b7e210faf03596feaad3a2</cat_item>
+        <cat_item display_value="Copy of Media Review">7024125583fb2610faf03596feaad329</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -18,8 +18,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>synopsis</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="Title of Media:">1450020183f7e210faf03596feaad390</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:13:15</sys_created_on>
-        <sys_id>c765d649833be210faf03596feaad3e0</sys_id>
+        <sys_created_on>2025-09-04 14:45:05</sys_created_on>
+        <sys_id>09249a5583fb2610faf03596feaad33e</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>synopsis</sys_name>
+        <sys_name>Synopsis:</sys_name>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name>item_option_new_c765d649833be210faf03596feaad3e0</sys_update_name>
+        <sys_update_name>item_option_new_09249a5583fb2610faf03596feaad33e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 17:12:44</sys_updated_on>
+        <sys_updated_on>2025-09-04 17:12:03</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=c765d649833be210faf03596feaad3e0"/>
-    <fx_price action="delete_multiple" query="id=c765d649833be210faf03596feaad3e0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=09249a5583fb2610faf03596feaad33e"/>
+    <fx_price action="delete_multiple" query="id=09249a5583fb2610faf03596feaad33e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>c765d649833be210faf03596feaad3e0</id>
+        <id>09249a5583fb2610faf03596feaad33e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:13:15</sys_created_on>
-        <sys_id>6aa592c9833be210faf03596feaad3d7</sys_id>
+        <sys_created_on>2025-09-04 14:45:05</sys_created_on>
+        <sys_id>05249a5583fb2610faf03596feaad36c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:13:15</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:45:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>c765d649833be210faf03596feaad3e0</id>
+        <id>09249a5583fb2610faf03596feaad33e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:13:15</sys_created_on>
-        <sys_id>2aa592c9833be210faf03596feaad3d6</sys_id>
+        <sys_created_on>2025-09-04 14:45:05</sys_created_on>
+        <sys_id>89249a5583fb2610faf03596feaad36b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:13:15</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:45:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

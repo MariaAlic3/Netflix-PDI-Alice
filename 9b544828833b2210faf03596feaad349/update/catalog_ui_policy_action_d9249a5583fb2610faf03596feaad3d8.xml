@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Media Review">3f5e7d4583b7e210faf03596feaad3a2</catalog_item>
-        <catalog_variable>IO:c765d649833be210faf03596feaad3e0</catalog_variable>
+        <catalog_item display_value="Copy of Media Review">7024125583fb2610faf03596feaad329</catalog_item>
+        <catalog_variable>IO:34249a5583fb2610faf03596feaad317</catalog_variable>
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
@@ -11,23 +11,23 @@
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-04 12:54:33</sys_created_on>
-        <sys_id>efca7595837b2610faf03596feaad3b4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>synopsis</sys_name>
+        <sys_created_on>2025-09-04 14:45:06</sys_created_on>
+        <sys_id>d9249a5583fb2610faf03596feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_efca7595837b2610faf03596feaad3b4</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-04 17:12:52</sys_updated_on>
+        <sys_update_name>catalog_ui_policy_action_d9249a5583fb2610faf03596feaad3d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:45:06</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show media data when media is selected">0b9a7d15837b2610faf03596feaad3c0</ui_policy>
+        <ui_policy display_value="Show media data when media is selected">1d249a5583fb2610faf03596feaad3c4</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>synopsis</variable>
+        <variable>average_rating</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=efca7595837b2610faf03596feaad3b4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9249a5583fb2610faf03596feaad3d8"/>
 </record_update>
