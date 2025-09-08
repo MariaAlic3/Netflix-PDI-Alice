@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>poster</name>
+        <scoped_name>x_1093514_netflix_poster</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:21:33</sys_created_on>
+        <sys_id>15df8b6a83372210faf03596feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_ui_macro_15df8b6a83372210faf03596feaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:21:33</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div style="width: 100; display: flex; justify-content: center;">
+<img src="" id="poster_image" style="width: 400px;" />
+</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sys_ui_macro_15df8b6a83372210faf03596feaad374</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;poster&lt;/name&gt;&lt;scoped_name&gt;x_1093514_netflix_poster&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-08 16:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;15df8b6a83372210faf03596feaad374&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;poster&lt;/sys_name&gt;&lt;sys_package display_value="Netflix" source="x_1093514_netflix"&gt;9b544828833b2210faf03596feaad349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Netflix"&gt;9b544828833b2210faf03596feaad349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_15df8b6a83372210faf03596feaad374&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-08 16:21:33&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;div style="width: 100; display: flex; justify-content: center;"&gt;
+&lt;img src="" id="poster_image" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-697283182</payload_hash>
+        <record_name>poster</record_name>
+        <reverted_from/>
+        <source>db1ed3e0833b6210faf03596feaad39e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:21:33</sys_created_on>
+        <sys_id>19901baa83372210faf03596feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992a21f8710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:21:33</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>1d901baa71372210457148a9769d031d</update_guid>
+        <update_guid_history>1d901baa71372210457148a9769d031d:-697283182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:25:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>24f3e9dc3f7e4ad58a51118ac7be8431</sys_id>
+        <sys_metadata>15df8b6a83372210faf03596feaad374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_15df8b6a83372210faf03596feaad374</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_15df8b6a83372210faf03596feaad374">19901baa83372210faf03596feaad31e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:25:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
