@@ -7,6 +7,7 @@
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="genre" max_length="1024" name="genre" reference="x_1093514_netflix_genre" type="glide_list"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
