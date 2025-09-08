@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1093514_netflix_review">state=2^EQ<item display_value="Awaiting Moderator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Requested</label>
+        <name>Requested</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 17:20:23</sys_created_on>
+        <sys_id>70dddb6a83772210faf03596feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_process_flow_70dddb6a83772210faf03596feaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:20:23</sys_updated_on>
+        <table>x_1093514_netflix_review</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sys_process_flow_70dddb6a83772210faf03596feaad3b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1093514_netflix_review">state=2^EQ<item display_value="Awaiting Moderator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Requested</label><name>Requested</name><order>200</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-08 17:20:23</sys_created_on><sys_id>70dddb6a83772210faf03596feaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested</sys_name><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sys_process_flow_70dddb6a83772210faf03596feaad3b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-08 17:20:23</sys_updated_on><table>x_1093514_netflix_review</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-772474896</payload_hash>
+        <record_name>Requested</record_name>
+        <reverted_from/>
+        <source>db1ed3e0833b6210faf03596feaad39e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 17:20:23</sys_created_on>
+        <sys_id>030e5fea83772210faf03596feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992a57d79c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:20:23</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>070e5fea0a772210a1f4afdd736af979</update_guid>
+        <update_guid_history>070e5fea0a772210a1f4afdd736af979:-772474896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 17:36:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>024206048fd54f07872be6f0984d3ee1</sys_id>
+        <sys_metadata>70dddb6a83772210faf03596feaad3b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sys_process_flow_70dddb6a83772210faf03596feaad3b2</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_70dddb6a83772210faf03596feaad3b2">030e5fea83772210faf03596feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
