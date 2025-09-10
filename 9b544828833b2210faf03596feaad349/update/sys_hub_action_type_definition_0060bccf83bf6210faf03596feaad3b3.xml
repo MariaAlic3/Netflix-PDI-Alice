@@ -24,14 +24,14 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 17:58:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0060bccf83bf6210faf03596feaad3b3</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Convert Seconds into Duration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0060bccf83bf6210faf03596feaad3b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 19:00:44</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -577,14 +577,14 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:54:28</sys_created_on>
         <sys_id>0b2df8038333a210faf03596feaad319</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 19:00:43</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -664,14 +664,14 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 17:59:01</sys_created_on>
         <sys_id>a270f84383ff6210faf03596feaad3f6</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 19:00:43</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -885,17 +885,17 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Convert Seconds into Duration">0060bccf83bf6210faf03596feaad3b3</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"affdf8438333a210faf03596feaad399","name":"plan","plan_signature":null}}</plan>
-        <snapshot>67fdf8438333a210faf03596feaad36a</snapshot>
+        <snapshot>4d42c1c78333a210faf03596feaad349</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:58:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>affdf8438333a210faf03596feaad399</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 18:58:04</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1036,10 +1036,10 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:58:03</sys_created_on>
         <sys_id>d7fdf8438333a210faf03596feaad330</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 18:58:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d7fdf8438333a210faf03596feaad330"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1050,11 +1050,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:58:03</sys_created_on>
         <sys_id>2bfdf8438333a210faf03596feaad34f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 18:58:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
-outputs.duration = new GlideDuration(inputs.second * 1000);&#13;
+outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1558,14 +1558,14 @@ outputs.duration = new GlideDuration(inputs.second * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:58:03</sys_created_on>
         <sys_id>6bfdf8438333a210faf03596feaad35d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 18:58:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1645,14 +1645,14 @@ outputs.duration = new GlideDuration(inputs.second * 1000);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 18:58:03</sys_created_on>
         <sys_id>6ffdf8438333a210faf03596feaad352</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 18:58:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 19:16:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
