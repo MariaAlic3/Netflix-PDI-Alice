@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 13:11:46</sys_updated_on>
         <table>x_1093514_netflix_media</table>
-        <ui_policy display_value="Default Read Only Fields">7a47309783732210faf03596feaad304</ui_policy>
+        <ui_policy display_value="Default Read-Only Fields">7a47309783732210faf03596feaad304</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create__update_genres</internal_name>
+        <label_cache>[{"name":"subflow.genres","label":"Input➛Genres","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"0a250f81-ad2e-4846-a7e0-153f572e6bc1":["string"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"461c3578-d160-49c2-aeb6-10645b9fd466","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0a250f81-ad2e-4846-a7e0-153f572e6bc1.array","label":"2 - Convert String into Array➛Array","reference_display":"Array","type":"array.string","base_type":"array.string","usedInstances":{"e4b4aca8-2d32-44af-b296-0670c8e5544b":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD59070613e93b22104e531e991ac8d080","child_label":"Array_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.string","child_type":"string","child_name":"array_child0","child_uiUniqueId":"80adbc9f-02e1-42f5-a438-cf2ab613908d","uiUniqueId":"0331cd8c-e33a-48d4-877f-8934cb9666cc"}},{"name":"flow_variable.genre_list","label":"Flow Variables➛Genre list","type":"string","base_type":"string","usedInstances":{"dd6b88d4-5718-4061-98ba-721b13c15034":["genre_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b2cdc76a-2909-4078-a33e-7ae386919b8c"}},{"name":"e4b4aca8-2d32-44af-b296-0670c8e5544b.item","label":"3 - For Each➛Array_child0","reference_display":"Array_child0","type":"string","base_type":"string","usedInstances":{},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Create / Update Genres</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:34:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c122c69383f72210faf03596feaad3b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create / Update Genres</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_hub_flow_c122c69383f72210faf03596feaad3b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c122c69383f72210faf03596feaad3b6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c122c69383f72210faf03596feaad3b6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_c122c69383f72210faf03596feaad3b6^id=c122c69383f72210faf03596feaad3b6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c122c69383f72210faf03596feaad3b6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c122c69383f72210faf03596feaad3b6^sys_idNOT IN4d228a9383f72210faf03596feaad34c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c122c69383f72210faf03596feaad3b6</id>
+        <name>Create / Update Genres</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:34:18</sys_created_on>
+        <sys_id>4d228a9383f72210faf03596feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:34:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4d228a9383f72210faf03596feaad34c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c122c69383f72210faf03596feaad3b6^sys_idNOT IN0e434a1783f72210faf03596feaad345,9e438a1783f72210faf03596feaad32d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=758e1a9f-ea29-4a1e-acf8-c6f1cc1ce54a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1093514_netflix_media</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>media</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Media</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</model>
+        <model_id>c122c69383f72210faf03596feaad3b6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1093514_netflix_media">x_1093514_netflix_media</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:17</sys_created_on>
+        <sys_id>0e434a1783f72210faf03596feaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e434a1783f72210faf03596feaad345"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=461c3578-d160-49c2-aeb6-10645b9fd466</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>genres</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Genres</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</model>
+        <model_id>c122c69383f72210faf03596feaad3b6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:18</sys_created_on>
+        <sys_id>9e438a1783f72210faf03596feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e438a1783f72210faf03596feaad32d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c122c69383f72210faf03596feaad3b6^sys_idNOT INda438a1783f72210faf03596feaad359"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f92eaf54-a325-4487-ac9f-87da0d911f2c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>genre_sys_id_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>OutGenre sys_id Listput</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</model>
+        <model_id>c122c69383f72210faf03596feaad3b6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_c122c69383f72210faf03596feaad3b6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:18</sys_created_on>
+        <sys_id>da438a1783f72210faf03596feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=da438a1783f72210faf03596feaad359"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c122c69383f72210faf03596feaad3b6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c122c69383f72210faf03596feaad3b6"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c122c69383f72210faf03596feaad3b6^sys_idNOT IN5b1b4a1f833b2210faf03596feaad322,9b1b4a1f833b2210faf03596feaad31f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>e4b4aca8-2d32-44af-b296-0670c8e5544b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>5b1b4a1f833b2210faf03596feaad322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <ui_id>274f6345-8a6d-425f-a82a-b4c40b4d9e97</ui_id>
+        <values>H4sIAAAAAAAA/9VYbU/bMBD+K1E+l85p2qbl2zRUadI2pL19YchyYodac+3McWCA+O87x3FSSmkLLRv7hl/u7rm7x0+Ont2GnIbHIZ2iaT6djiYJQnGM0HgcZyRK03icpSglw7AXSrJgcNOQVDBYXhJR2TX8SXlZCHL9vdvJ5lxQzWR4fHbeCwuiwdYwHR7frhyZ64JhQVImwPCrdR18snF6O8O6Z/wQpg3gl1g610pTiwX1QvbbMEkZhMqJKFkvXBBJiVH6ut3RjNBTKbqNOZfGZbkgv0t+A+4nyN7LGaSVNRVol7ipji+M4hk7LQxX0u04oO5QiWohP7kEbF1ZTiphlupaleCPFRazBdEgyr/M1dVnH3DGZZ1ecyhURkS7IsZonlaGlbYXTLAFOMILUhRcXuBCq0teGwOWRf9CwKKfC3UFQUt+Ifsks8D7UCLSn8H+Sb39nWhus/gIbsAYAHEB3cau6KWqdF2VS5yJqqwPNJGl8xXe1bXCvyqL0mXd5IddieBCmWlemLdgcMmaVO56nrmjjRSZdpTIlKTcxixfhr7vlv3vim2t8TrADZHv7TVEjg5G5CFC/4jKRlevj8nbuOkS3kLQiG4kAe36XSptsKvcyzB0xpmg9wR2B3De+NSSLUivH8PbEDS3MVaUdvDfK+2e9MwpdnXhUnBZf5DAIYR5xbwdbaRGGq3woG5/x9p6j5TZQ/aSwKjg5vkqW/fV83cHkN7wCyAKvjqUa4B7ffXuG+rGB6NuPHgadYE4Z7ct+rZqawrs5xnbOn//xt4nq/eBREsG0d15S/13z4sZPTXmwMZceZvxkx7nMrPcyckjBDvwtPSXH3HPBpyDaRMPu8eKrzi9YKaL7m9RZa6I+LnuvGFX+4bq9PaevKKNw3m6NHnxHC+gT7yAcVCzDKhQYqIZzlUlKW4GwY42tm8516VpLj/UkM/MVFoGCp5cYOYsqG8H7e1DKMsO2XnD93ng02swlAGkF9TpBW16TyvGI3o0POCst48ezQgXdelhoC+Wese0VvoRTdrStQ3t31GwdgQVHRTU/oq2ju9rlW0L1v/iv8N9VSdjJB0OyDiJowihCNEETZIkmozTfEySYd49NIxLmYEsgucciAHusSeC7yp6KC1OG5/9EwZo7ptZ42JXvN74RMkfFUKDxAQWMPQ58IC3p9ToRaqUYER29Bz9M8F4Lb9yVNxOfR/Wdeilvtwu5L12VPyb5L8q9t6SYsLQYBLR7GiSRMnRMKfjoykloyMyTUdJTFk2zJ//fT7/A6oi3H3VEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Convert String into Array">01070613833b2210faf03596feaad321</action_type>
+        <action_type_parent display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>9b1b4a1f833b2210faf03596feaad31f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <ui_id>0a250f81-ad2e-4846-a7e0-153f572e6bc1</ui_id>
+        <values>H4sIAAAAAAAA/+1TwW7bMAz9F51tQ3Zsx86twFBgwLYC69ZLURi0RCcCZNmV5bZZkH8fFTtBkG7dMOyww46kyMfHx6f7HVOSrViR8SXP40WxWNRJEvMGGr7IyrxBALlIUhYwAy1S5eCsMmuKn0CPPrHbDWPd6O45WqOxOOz39CjV0GvY3r1VIzZKS4uGre4fAtaDpQEOLVvtLp7ctsdKQ42aoG6P83+X96vGy0U8/HncWelZxAHDF4dGIg1qQA8YsBaMBNfZLVs5O1LCIsgbo7enio0yjsCYr30Z1DdCLjjnvrJB2kjg9HoKq1mqKS02nRJ40zvVmSnjoNZzj+j02JpPE30vMjYwancUmTLjQHjYe9Kexsypud10z5+PA6+VOew3P+pOgD5F4EiFenQ4+DOM6gtp8+FSQNTYEn7VQt9Tpupt96QOmESxjdaagshfm7gMam0iEH6fiKSD6Jry7w7pO7DKL/eRYKg5mMedn2JUX416HPG9vzXPSs5FAmG5gGWYZjwLy7IowkzES1FK2Yg6ZvuDtNXj6JeaRJrlqCZFqWAQVvXuikg94bz5Pjh+hPhNQ5Vn/kFvWTLD2V8IXls/+FtO/zWxU+MZsx+Q/Ynfk/9+/8f8LnnOy1iGaZGLMG1qDAEbGSZFUeTlMs2Rp3/s94fv+EqK0voFAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c122c69383f72210faf03596feaad3b6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c122c69383f72210faf03596feaad3b6^sys_idNOT IN171b4a1f833b2210faf03596feaad31e,171b4a1f833b2210faf03596feaad321,1b1b4a1f833b2210faf03596feaad323"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d71b4a1f833b2210faf03596feaad31d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</flow>
+        <flow_variables_assigned>genre_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>171b4a1f833b2210faf03596feaad31e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <ui_id>dd6b88d4-5718-4061-98ba-721b13c15034</ui_id>
+        <values>H4sIAAAAAAAA/7WQsQ7CMAxE/8VzxQd068iOWFBVhcQtFiap4rRVFeXfSURR2WBhOz2f7k6O4KYwTkFOrhGhwUJ9aSsgW1jWEchADVCBVQ/MakDrsWOSkNmseCowxp7d0s3Kk7oyHnZTStlmSEZW63lzZ6JvxMbj1iba0xgaHWjO916xYGpL+ivuXzu+uH/aaFCTkLOnknB8f60c1jyU9CdanL+Xxp2lJ6mqHdJ/AQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1f1b4a1f833b2210faf03596feaad320</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>171b4a1f833b2210faf03596feaad321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <ui_id>e4b4aca8-2d32-44af-b296-0670c8e5544b</ui_id>
+        <values>H4sIAAAAAAAA/51TTW/bMAz9Lzonhj8SN8mtwFCgh61AV/RSFAYt0YkwWdIkOaln+L+Xip206KnYyeIj+fieKA/MdMF2wT+ZW+/lXrPdy+uCSR0xOg9MCrZj2VY02yzd8iIvizxN880qq8uiznJRAIqSLZiGFqlSBmw9hUdQXYyHIYV8nTabbAkix+VqsyqXcIPpMlsXzfomx7LmWQLOQT+O1Ciktwr65//t5wephMPZiAVHugI6thu+pEJvsVJQo6Ixj8iNE1H4d/1eOu9nw1/8R3YK3ZWXPlFFni4YvgXUAmlQA8rjgrWgBQTjerYLriPAIYgHrfprxUHqQHQs1r55+Y+4szSNhQ2SI45T8hpW8zVOMD8YyfHBBmn0hASo1dzDjepa/WuSHxeADXQqXBZASOeJD23UHFXMkprfB3N6vAy8k/rsb04qw0FdIwjByboL6OMaUGFLRFUL1kq9r6wzR3luJi1tslcUJI0yJxoan2QCPApP6IoguSP8xxl+Bieji59EQ83j2X31t4tzJx+z4moyTQWeO2nDLdEdcRY3vsa3OjH56WEI5NLTwKeI3V/+hJjoacmSf4ZOxv2JUj+w8R3gaO5TUwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">131b4a1f833b2210faf03596feaad323</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>e4b4aca8-2d32-44af-b296-0670c8e5544b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>1b1b4a1f833b2210faf03596feaad323</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <ui_id>1362629b-51a5-4141-828e-d1682fc873aa</ui_id>
+        <values>H4sIAAAAAAAA/+1Uy2obMRT9laL1YOaRMY13oSVQaBtoQjYlDHekO7aoRlIljR3X+N97NQ/btA4xWXTV3ehI956HD94x0wXbBf9gbryXS80W358SJnXE6HvHpGAL1qTQZNc840U+L/I0zd9fZfW8qLNcFIBQsIRpaJFecqOFDNLoqgcStgbVxQv6FNJbBdvHI8JXUgmHI6sFRzMBHVvs/rgKW4uVghoVDd4HJ/WSxi/VNg1+mMS9+9wjL6uOfIT7ick4EWVlacLwOaAWSNQNKI8Ja0ELCMZtD4hDEHdaHYGV1GFw3MKzl79od16W8WGD5JGPcRyO1RjVlJKRHO9sFDggAWo1RWhU1+qvg48YMjbQqXAScudpH9ooOqoYJTX3K7P5NhHeSt0bHC+V4aAOJwgUQ90F9PGHQYUtLapasJbCqawza9kPk5Z2tlR0mDXKbIg0NmoGPAqfUUYwuyX8Yw8/gpPRxRdaQ8ODzBq85FXfPloXHFnY97FUP7soaDA4WqmGNOiB507acEM8axxV75OxutdQNmWWlufrcTU/U4J/0doLZP3V2vNSX6hq/kpVY7gXNjVN0/9VPa2q9NVQudFbT/7mpj7Fug0MfuiNQC49CXmI2KfpvzhebKkAkp9CG+N+RAtHbP8b0DDdntUFAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c122c69383f72210faf03596feaad3b6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c122c69383f72210faf03596feaad3b6^sys_idNOT IN1f1b4a1f833b2210faf03596feaad316"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b2cdc76a-2909-4078-a33e-7ae386919b8c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>genre_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Genre list</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create / Update Genres">c122c69383f72210faf03596feaad3b6</model>
+        <model_id>c122c69383f72210faf03596feaad3b6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_c122c69383f72210faf03596feaad3b6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:30</sys_created_on>
+        <sys_id>1f1b4a1f833b2210faf03596feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:13:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6^sys_idNOT IN5a438a1783f72210faf03596feaad32c,92438a1783f72210faf03596feaad330"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>media</element>
+        <help/>
+        <hint/>
+        <label>Media</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:18</sys_created_on>
+        <sys_id>5a438a1783f72210faf03596feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>genres</element>
+        <help/>
+        <hint/>
+        <label>Genres</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:18</sys_created_on>
+        <sys_id>92438a1783f72210faf03596feaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c122c69383f72210faf03596feaad3b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c122c69383f72210faf03596feaad3b6^sys_idNOT IN52438a1783f72210faf03596feaad35d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>genre_sys_id_list</element>
+        <help/>
+        <hint/>
+        <label>OutGenre sys_id Listput</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_c122c69383f72210faf03596feaad3b6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:39:18</sys_created_on>
+        <sys_id>52438a1783f72210faf03596feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:39:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c122c69383f72210faf03596feaad3b6"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c122c69383f72210faf03596feaad3b6"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c122c69383f72210faf03596feaad3b6"/>
+</record_update>

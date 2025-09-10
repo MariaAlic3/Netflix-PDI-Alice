@@ -45,16 +45,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-09 13:03:42</sys_created_on>
+            <sys_created_on>2025-09-09 20:29:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>70ece7ba837b6210faf03596feaad37d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>f8d219cb8373a210faf03596feaad304</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1093514_netflix_media" name="x_1093514_netflix_media" sys_domain="global" view="Default view">2e23403083fb6210faf03596feaad312</sys_ui_form>
-            <sys_ui_section display_value="">d19a6bf6837b6210faf03596feaad3a3</sys_ui_section>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1093514_netflix_media" sys_domain="global" view="Default view">7cd2d5cb8373a210faf03596feaad346</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-09 13:03:42</sys_updated_on>
+            <sys_updated_on>2025-09-09 20:29:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1093514_netflix_media</name>
