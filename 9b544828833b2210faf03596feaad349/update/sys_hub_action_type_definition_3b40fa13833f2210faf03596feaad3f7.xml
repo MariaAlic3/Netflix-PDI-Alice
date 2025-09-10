@@ -16,130 +16,104 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_into_array</internal_name>
-        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fdb98691-4299-403f-b2ff-f06b6f08bf26].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD802cd25740bb221068b9c8b90ecd0dc0","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"element","child_uiUniqueId":"488c1a08-5021-46aa-b5ed-1ff5d7ff3d91","uiUniqueId":"c0189347-352e-4aef-bb31-f413a9cea827"}}]</label_cache>
-        <master_snapshot>01070613833b2210faf03596feaad321</master_snapshot>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf9a0f253a93f221086ad944788b3a3c1","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Element","child_uiUniqueId":"5029d847-6bb1-4a16-b267-851984dbe5a8","uiUniqueId":"d685cfde-534f-4dcd-b6b1-f7688077448f"}}]</label_cache>
+        <master_snapshot>9ec03a53833f2210faf03596feaad37d</master_snapshot>
         <master_snapshot_digest/>
-        <name>Convert String into Array</name>
+        <name> Convert String into Array</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:40:27</sys_created_on>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:56:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>07838e5783f72210faf03596feaad3bb</sys_id>
-        <sys_mod_count>33</sys_mod_count>
-        <sys_name>Convert String into Array</sys_name>
+        <sys_id>3b40fa13833f2210faf03596feaad3f7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name> Convert String into Array</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name>sys_hub_action_type_definition_07838e5783f72210faf03596feaad3bb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:25</sys_updated_on>
+        <sys_update_name>sys_hub_action_type_definition_3b40fa13833f2210faf03596feaad3f7</sys_update_name>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=07838e5783f72210faf03596feaad3bb"/>
-    <sys_variable_value action="delete_multiple" query="document_key=07838e5783f72210faf03596feaad3bb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b40fa13833f2210faf03596feaad3f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3b40fa13833f2210faf03596feaad3f7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
-        <document_key>07838e5783f72210faf03596feaad3bb</document_key>
+        <document_key>3b40fa13833f2210faf03596feaad3f7</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>3dd3c69783f72210faf03596feaad3e7</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>4ea0f253833f2210faf03596feaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
-        <variable display_value="Action Status">bdd3c69783f72210faf03596feaad3ca</variable>
+        <variable display_value="Action Status">46a0f253833f2210faf03596feaad3d3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
-        <document_key>07838e5783f72210faf03596feaad3bb</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:49:39</sys_created_on>
-        <sys_id>b1a5c6db83f72210faf03596feaad3b4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:17</sys_updated_on>
-        <value/>
-        <variable display_value="Array">3df4065b83f72210faf03596feaad399</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>07838e5783f72210faf03596feaad3bb</document_key>
+        <document_key>3b40fa13833f2210faf03596feaad3f7</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>b1d3c69783f72210faf03596feaad3e7</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>8aa0f253833f2210faf03596feaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <value>0</value>
-        <variable display_value="Don't Treat as Error">b5d3c69783f72210faf03596feaad3d0</variable>
+        <variable display_value="Don't Treat as Error">02a0f253833f2210faf03596feaad3e5</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=07838e5783f72210faf03596feaad3bb"/>
+    <sys_element_mapping action="delete_multiple" query="id=3b40fa13833f2210faf03596feaad3f7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>array</field>
-        <id>07838e5783f72210faf03596feaad3bb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:49:39</sys_created_on>
-        <sys_id>31a5c6db83f72210faf03596feaad3b4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:17</sys_updated_on>
-        <table>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</table>
-        <value>{{step[fdb98691-4299-403f-b2ff-f06b6f08bf26].array}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>element</field>
-        <id>07838e5783f72210faf03596feaad3bb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:31</sys_created_on>
-        <sys_id>b3f6c213833b2210faf03596feaad330</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 19:08:57</sys_updated_on>
-        <table>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</table>
-        <value/>
+        <id>3b40fa13833f2210faf03596feaad3f7</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:02</sys_created_on>
+        <sys_id>29c0f653833f2210faf03596feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</table>
+        <value>{{step[a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec].array}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
-        <id>07838e5783f72210faf03596feaad3bb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>31d3c69783f72210faf03596feaad3e7</sys_id>
+        <id>3b40fa13833f2210faf03596feaad3f7</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>0aa0f253833f2210faf03596feaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__dont_treat_as_error__</field>
-        <id>07838e5783f72210faf03596feaad3bb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>39d3c69783f72210faf03596feaad3e6</sys_id>
+        <id>3b40fa13833f2210faf03596feaad3f7</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>46a0f253833f2210faf03596feaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=07838e5783f72210faf03596feaad3bb^sys_idNOT INb9f4065b83f72210faf03596feaad376"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=3b40fa13833f2210faf03596feaad3f7^sys_idNOT INf5a0f253833f2210faf03596feaad3b6"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</action>
-        <cid>fdb98691-4299-403f-b2ff-f06b6f08bf26</cid>
+        <action display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</action>
+        <cid>a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
@@ -151,26 +125,26 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:38</sys_created_on>
-        <sys_id>b9f4065b83f72210faf03596feaad376</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>f5a0f253833f2210faf03596feaad3b6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b9f4065b83f72210faf03596feaad376"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f5a0f253833f2210faf03596feaad3b6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9f4065b83f72210faf03596feaad376</document_key>
+        <document_key>f5a0f253833f2210faf03596feaad3b6</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>31f4065b83f72210faf03596feaad38a</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>75a0f253833f2210faf03596feaad3cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13;
 })(inputs, outputs);&#13;
@@ -179,71 +153,71 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9f4065b83f72210faf03596feaad376</document_key>
+        <document_key>f5a0f253833f2210faf03596feaad3b6</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>7df4065b83f72210faf03596feaad389</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>7da0f253833f2210faf03596feaad3ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b9f4065b83f72210faf03596feaad376"/>
+    <sys_element_mapping action="delete_multiple" query="id=f5a0f253833f2210faf03596feaad3b6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>b9f4065b83f72210faf03596feaad376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>39f4065b83f72210faf03596feaad389</sys_id>
+        <id>f5a0f253833f2210faf03596feaad3b6</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>35a0f253833f2210faf03596feaad3ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>b9f4065b83f72210faf03596feaad376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>f9f4065b83f72210faf03596feaad389</sys_id>
+        <id>f5a0f253833f2210faf03596feaad3b6</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>f9a0f253833f2210faf03596feaad3ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
-        <id>b9f4065b83f72210faf03596feaad376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>75f4065b83f72210faf03596feaad397</sys_id>
+        <id>f5a0f253833f2210faf03596feaad3b6</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>f1a0f253833f2210faf03596feaad3d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_b9f4065b83f72210faf03596feaad376</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f5a0f253833f2210faf03596feaad3b6</table>
         <value>{{action.separator}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>string</field>
-        <id>b9f4065b83f72210faf03596feaad376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>b1f4065b83f72210faf03596feaad397</sys_id>
+        <id>f5a0f253833f2210faf03596feaad3b6</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>31a0f253833f2210faf03596feaad3d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_b9f4065b83f72210faf03596feaad376</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f5a0f253833f2210faf03596feaad3b6</table>
         <value>{{action.string}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_b9f4065b83f72210faf03596feaad376^id=b9f4065b83f72210faf03596feaad376"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b9f4065b83f72210faf03596feaad376"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=b9f4065b83f72210faf03596feaad376"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=b9f4065b83f72210faf03596feaad376^sys_idNOT INbdf4065b83f72210faf03596feaad37f,f5f4065b83f72210faf03596feaad37c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f5a0f253833f2210faf03596feaad3b6^id=f5a0f253833f2210faf03596feaad3b6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f5a0f253833f2210faf03596feaad3b6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f5a0f253833f2210faf03596feaad3b6"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f5a0f253833f2210faf03596feaad3b6^sys_idNOT INb1a0f253833f2210faf03596feaad3bf,fda0f253833f2210faf03596feaad3bb"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -284,10 +258,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">b9f4065b83f72210faf03596feaad376</model>
-        <model_id>b9f4065b83f72210faf03596feaad376</model_id>
+        <model display_value="Script step">f5a0f253833f2210faf03596feaad3b6</model>
+        <model_id>f5a0f253833f2210faf03596feaad3b6</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_b9f4065b83f72210faf03596feaad376</name>
+        <name>var__m_sys_hub_step_ext_input_f5a0f253833f2210faf03596feaad3b6</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -304,17 +278,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>bdf4065b83f72210faf03596feaad37f</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>b1a0f253833f2210faf03596feaad3bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -367,10 +341,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">b9f4065b83f72210faf03596feaad376</model>
-        <model_id>b9f4065b83f72210faf03596feaad376</model_id>
+        <model display_value="Script step">f5a0f253833f2210faf03596feaad3b6</model>
+        <model_id>f5a0f253833f2210faf03596feaad3b6</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_b9f4065b83f72210faf03596feaad376</name>
+        <name>var__m_sys_hub_step_ext_input_f5a0f253833f2210faf03596feaad3b6</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -387,17 +361,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:38</sys_created_on>
-        <sys_id>f5f4065b83f72210faf03596feaad37c</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>fda0f253833f2210faf03596feaad3bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:38</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -410,35 +384,35 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=b9f4065b83f72210faf03596feaad376^sys_idNOT IN7765ca9b83f72210faf03596feaad3bc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f5a0f253833f2210faf03596feaad3b6^sys_idNOT IN31a0f253833f2210faf03596feaad3c3"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD802cd25740bb221068b9c8b90ecd0dc0</name>
+        <name>FDf9a0f253a93f221086ad944788b3a3c1</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>9b544828833b2210faf03596feaad349</scope_name>
-        <serialized_content>{"FlowDesigner:FD802cd25740bb221068b9c8b90ecd0dc0":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD802cd25740bb221068b9c8b90ecd0dc0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"c0189347-352e-4aef-bb31-f413a9cea827\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD802cd25740bb221068b9c8b90ecd0dc0\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"488c1a08-5021-46aa-b5ed-1ff5d7ff3d91\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FDf9a0f253a93f221086ad944788b3a3c1":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf9a0f253a93f221086ad944788b3a3c1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"false\",\"child_name\":\"Element\",\"uiUniqueId\":\"d685cfde-534f-4dcd-b6b1-f7688077448f\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf9a0f253a93f221086ad944788b3a3c1\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"5029d847-6bb1-4a16-b267-851984dbe5a8\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 20:27:49</sys_created_on>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>442cd25783bb2210faf03596feaad3c0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>bda0f253833f2210faf03596feaad3c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:23</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:05</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=488c1a08-5021-46aa-b5ed-1ff5d7ff3d91,co_type_name=FD802cd25740bb221068b9c8b90ecd0dc0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=c0189347-352e-4aef-bb31-f413a9cea827</attributes>
+        <attributes>child_label=Element,child_name=Element,child_type=string,child_type_label=String,child_uiUniqueId=5029d847-6bb1-4a16-b267-851984dbe5a8,co_type_name=FDf9a0f253a93f221086ad944788b3a3c1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=d685cfde-534f-4dcd-b6b1-f7688077448f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -472,12 +446,12 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Array</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Script step">b9f4065b83f72210faf03596feaad376</model>
-        <model_id>b9f4065b83f72210faf03596feaad376</model_id>
+        <model display_value="Script step">f5a0f253833f2210faf03596feaad3b6</model>
+        <model_id>f5a0f253833f2210faf03596feaad3b6</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_b9f4065b83f72210faf03596feaad376</name>
+        <name>var__m_sys_hub_step_ext_output_f5a0f253833f2210faf03596feaad3b6</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -494,17 +468,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:48:41</sys_created_on>
-        <sys_id>7765ca9b83f72210faf03596feaad3bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>31a0f253833f2210faf03596feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:28:02</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -517,121 +491,37 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b9f4065b83f72210faf03596feaad376"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_b9f4065b83f72210faf03596feaad376^sys_idNOT IN7365ca9b83f72210faf03596feaad3c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a0f253833f2210faf03596feaad3b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f5a0f253833f2210faf03596feaad3b6^sys_idNOT IN7da0f253833f2210faf03596feaad3c6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>array</element>
         <help/>
         <hint/>
         <label>Array</label>
         <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_b9f4065b83f72210faf03596feaad376</name>
+        <name>var__m_sys_hub_step_ext_output_f5a0f253833f2210faf03596feaad3b6</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:48:41</sys_created_on>
-        <sys_id>7365ca9b83f72210faf03596feaad3c0</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>7da0f253833f2210faf03596feaad3c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:48:41</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=07838e5783f72210faf03596feaad3bb^sys_idNOT IN35d3c69783f72210faf03596feaad366,3dd3c69783f72210faf03596feaad3c2"/>
+    <sys_hub_action_input action="delete_multiple" query="model=3b40fa13833f2210faf03596feaad3f7^sys_idNOT IN35a0f253833f2210faf03596feaad31a,71a0f253833f2210faf03596feaad315"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=05900c2a-93a7-4505-9988-5c17c9ddfcb1</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>string</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>String</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</model>
-        <model_id>07838e5783f72210faf03596feaad3bb</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:43</sys_created_on>
-        <sys_id>35d3c69783f72210faf03596feaad366</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35d3c69783f72210faf03596feaad366"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0d06091d-486c-4fbe-aefd-288869746e04</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5ef2e282-c748-472a-801e-c2e8bb03c556</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -667,10 +557,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>Separator</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</model>
-        <model_id>07838e5783f72210faf03596feaad3bb</model_id>
+        <model display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</model>
+        <model_id>3b40fa13833f2210faf03596feaad3f7</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7</name>
         <next_element/>
         <order>2</order>
         <primary>false</primary>
@@ -687,17 +577,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:43</sys_created_on>
-        <sys_id>3dd3c69783f72210faf03596feaad3c2</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>35a0f253833f2210faf03596feaad31a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:43</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -710,36 +600,12 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3dd3c69783f72210faf03596feaad3c2"/>
-    <sys_hub_action_output action="delete_multiple" query="model=07838e5783f72210faf03596feaad3bb^sys_idNOT IN3df4065b83f72210faf03596feaad399,b5d3c69783f72210faf03596feaad3d0,bdd3c69783f72210faf03596feaad3ca"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FD536c9a5748bb22107b6d1fefbac60ea9</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>9b544828833b2210faf03596feaad349</scope_name>
-        <serialized_content>{"FlowDesigner:FD536c9a5748bb22107b6d1fefbac60ea9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD536c9a5748bb22107b6d1fefbac60ea9.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"755efb1b-af2c-4996-b4c2-28d7ba3a41db\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD536c9a5748bb22107b6d1fefbac60ea9\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"14770e6f-9e46-49d3-ac56-85dccd5aae51\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 20:29:09</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>176c9a5783bb2210faf03596feaad3a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:23</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35a0f253833f2210faf03596feaad31a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=14770e6f-9e46-49d3-ac56-85dccd5aae51,co_type_name=FD536c9a5748bb22107b6d1fefbac60ea9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=755efb1b-af2c-4996-b4c2-28d7ba3a41db</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=307ebce8-cafe-498c-a88e-45c4494ee80e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -763,8 +629,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>array</element>
-        <element_prototype/>
+        <element>string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -772,15 +637,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_link/>
         <internal_type display_value="String">string</internal_type>
-        <label>Array</label>
+        <label>String</label>
         <mandatory>true</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</model>
-        <model_id>07838e5783f72210faf03596feaad3bb</model_id>
+        <max_length>8000</max_length>
+        <model display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</model>
+        <model_id>3b40fa13833f2210faf03596feaad3f7</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -796,18 +660,18 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>3df4065b83f72210faf03596feaad399</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>71a0f253833f2210faf03596feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:09</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -819,14 +683,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3df4065b83f72210faf03596feaad399"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=3df4065b83f72210faf03596feaad399"/>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71a0f253833f2210faf03596feaad315"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3b40fa13833f2210faf03596feaad3f7^sys_idNOT IN02a0f253833f2210faf03596feaad3e5,11c0f653833f2210faf03596feaad35d,46a0f253833f2210faf03596feaad3d3"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=05d14204-8e4d-4df2-90d2-efe334bd93b9,visible_in_ui=false</attributes>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=84d8e993-9f67-45df-97cf-fc731232a262,visible_in_ui=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -864,10 +728,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</model>
-        <model_id>07838e5783f72210faf03596feaad3bb</model_id>
+        <model display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</model>
+        <model_id>3b40fa13833f2210faf03596feaad3f7</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
         <next_element/>
         <order>3</order>
         <primary>false</primary>
@@ -884,17 +748,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>b5d3c69783f72210faf03596feaad3d0</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>02a0f253833f2210faf03596feaad3e5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:23</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -907,13 +771,123 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5d3c69783f72210faf03596feaad3d0"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b5d3c69783f72210faf03596feaad3d0"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02a0f253833f2210faf03596feaad3e5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=02a0f253833f2210faf03596feaad3e5"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD11c0f653b73f2210b8ac22c6ed143b5c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9b544828833b2210faf03596feaad349</scope_name>
+        <serialized_content>{"FlowDesigner:FD11c0f653b73f2210b8ac22c6ed143b5c":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD11c0f653b73f2210b8ac22c6ed143b5c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"460686b5-6c58-4a4c-bc4b-aac9522f8619\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD11c0f653b73f2210b8ac22c6ed143b5c\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bf5ab223-88b4-4ede-b0fc-f631a62a87af\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1c0f653833f2210faf03596feaad35c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:05</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=19ea1e07-432d-4120-8f31-542cdc979b72</attributes>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=bf5ab223-88b4-4ede-b0fc-f631a62a87af,co_type_name=FD11c0f653b73f2210b8ac22c6ed143b5c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=460686b5-6c58-4a4c-bc4b-aac9522f8619</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</model>
+        <model_id>3b40fa13833f2210faf03596feaad3f7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:02</sys_created_on>
+        <sys_id>11c0f653833f2210faf03596feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=11c0f653833f2210faf03596feaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=11c0f653833f2210faf03596feaad35d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ce8bcea0-0477-4fe3-b2e4-84ef2bccf85d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -951,10 +925,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</model>
-        <model_id>07838e5783f72210faf03596feaad3bb</model_id>
+        <model display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</model>
+        <model_id>3b40fa13833f2210faf03596feaad3f7</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
         <next_element/>
         <order>2</order>
         <primary>false</primary>
@@ -971,17 +945,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>bdd3c69783f72210faf03596feaad3ca</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>46a0f253833f2210faf03596feaad3d3</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -994,41 +968,41 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bdd3c69783f72210faf03596feaad3ca"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bdd3c69783f72210faf03596feaad3ca"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=07838e5783f72210faf03596feaad3bb"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=07838e5783f72210faf03596feaad3bb^sys_idNOT IN71d3c69783f72210faf03596feaad3e9"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=46a0f253833f2210faf03596feaad3d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=46a0f253833f2210faf03596feaad3d3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3b40fa13833f2210faf03596feaad3f7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3b40fa13833f2210faf03596feaad3f7^sys_idNOT IN82a0f253833f2210faf03596feaad3f1"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</action_type_id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>71d3c69783f72210faf03596feaad3e9</sys_id>
+        <action_type_id display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</action_type_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>82a0f253833f2210faf03596feaad3f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=71d3c69783f72210faf03596feaad3e9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb^sys_idNOT IN3dd3c69783f72210faf03596feaad3c1,fdd3c69783f72210faf03596feaad3c5"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=82a0f253833f2210faf03596feaad3f1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7^sys_idNOT IN35a0f253833f2210faf03596feaad319,35a0f253833f2210faf03596feaad3a6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>string</element>
         <help/>
         <hint/>
         <label>String</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:43</sys_created_on>
-        <sys_id>3dd3c69783f72210faf03596feaad3c1</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>35a0f253833f2210faf03596feaad319</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:43</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1038,45 +1012,45 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <label>Separator</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>fdd3c69783f72210faf03596feaad3c5</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>35a0f253833f2210faf03596feaad3a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_07838e5783f72210faf03596feaad3bb"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb^sys_idNOT IN0af4065b83f72210faf03596feaad39d,b1d3c69783f72210faf03596feaad3d6,b5d3c69783f72210faf03596feaad3cf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3b40fa13833f2210faf03596feaad3f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7^sys_idNOT IN02a0f253833f2210faf03596feaad3e4,0ea0f253833f2210faf03596feaad3ea,e1c0f653833f2210faf03596feaad361"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>array</element>
+        <element>__action_status__</element>
         <help/>
         <hint/>
-        <label>Array</label>
+        <label>Action Status</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:46:39</sys_created_on>
-        <sys_id>0af4065b83f72210faf03596feaad39d</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>02a0f253833f2210faf03596feaad3e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:46:39</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1086,62 +1060,62 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <label>Don't Treat as Error</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>b1d3c69783f72210faf03596feaad3d6</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:57:31</sys_created_on>
+        <sys_id>0ea0f253833f2210faf03596feaad3ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:57:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>__action_status__</element>
+        <element>array</element>
         <help/>
         <hint/>
-        <label>Action Status</label>
+        <label>Array</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb</name>
+        <name>var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:41:44</sys_created_on>
-        <sys_id>b5d3c69783f72210faf03596feaad3cf</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:02</sys_created_on>
+        <sys_id>e1c0f653833f2210faf03596feaad361</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:41:44</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_07838e5783f72210faf03596feaad3bb"/>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=07838e5783f72210faf03596feaad3bb^sys_idNOT IN69070613833b2210faf03596feaad3dd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3b40fa13833f2210faf03596feaad3f7"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3b40fa13833f2210faf03596feaad3f7^sys_idNOT INbec07a53833f2210faf03596feaad347"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</action_id>
-        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"69070613833b2210faf03596feaad3dd","name":"plan","plan_signature":null}}</plan>
-        <snapshot>d77c1e5783bb2210faf03596feaad396</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:38</sys_created_on>
+        <action_id display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bec07a53833f2210faf03596feaad347","name":"plan","plan_signature":null}}</plan>
+        <snapshot>2ec07a53833f2210faf03596feaad322</snapshot>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>69070613833b2210faf03596feaad3dd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>bec07a53833f2210faf03596feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:25</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1158,128 +1132,102 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <description/>
         <flow_priority/>
         <internal_name>convert_string_into_array</internal_name>
-        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fdb98691-4299-403f-b2ff-f06b6f08bf26].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD802cd25740bb221068b9c8b90ecd0dc0","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"element","child_uiUniqueId":"488c1a08-5021-46aa-b5ed-1ff5d7ff3d91","uiUniqueId":"c0189347-352e-4aef-bb31-f413a9cea827"}}]</label_cache>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf9a0f253a93f221086ad944788b3a3c1","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Element","child_uiUniqueId":"5029d847-6bb1-4a16-b267-851984dbe5a8","uiUniqueId":"d685cfde-534f-4dcd-b6b1-f7688077448f"}}]</label_cache>
         <master>true</master>
-        <name>Convert String into Array</name>
+        <name> Convert String into Array</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Convert String into Array">07838e5783f72210faf03596feaad3bb</parent_action>
+        <parent_action display_value=" Convert String into Array">3b40fa13833f2210faf03596feaad3f7</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>01070613833b2210faf03596feaad321</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>9ec03a53833f2210faf03596feaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=01070613833b2210faf03596feaad321"/>
-    <sys_variable_value action="delete_multiple" query="document_key=01070613833b2210faf03596feaad321"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ec03a53833f2210faf03596feaad37d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9ec03a53833f2210faf03596feaad37d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
-        <document_key>01070613833b2210faf03596feaad321</document_key>
+        <document_key>9ec03a53833f2210faf03596feaad37d</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>59070613833b2210faf03596feaad3a6</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>aac07a53833f2210faf03596feaad307</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
-        <variable display_value="Action Status">99070613833b2210faf03596feaad386</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_snapshot</document>
-        <document_key>01070613833b2210faf03596feaad321</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 19:13:14</sys_created_on>
-        <sys_id>670bc61f833b2210faf03596feaad33d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>netflix.tester</sys_updated_by>
-        <sys_updated_on>2025-09-10 19:15:53</sys_updated_on>
-        <value/>
-        <variable display_value="Array">59070613833b2210faf03596feaad381</variable>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">2ac03a53833f2210faf03596feaad3d3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
-        <document_key>01070613833b2210faf03596feaad321</document_key>
-        <order>4</order>
+        <document_key>9ec03a53833f2210faf03596feaad37d</document_key>
+        <order>3</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>95070613833b2210faf03596feaad3a6</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>e6c07a53833f2210faf03596feaad307</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
         <value>0</value>
-        <variable display_value="Don't Treat as Error">51070613833b2210faf03596feaad38f</variable>
+        <variable display_value="Don't Treat as Error">62c03a53833f2210faf03596feaad3fd</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=01070613833b2210faf03596feaad321"/>
+    <sys_element_mapping action="delete_multiple" query="id=9ec03a53833f2210faf03596feaad37d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>array</field>
-        <id>01070613833b2210faf03596feaad321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>d9070613833b2210faf03596feaad3a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>netflix.tester</sys_updated_by>
-        <sys_updated_on>2025-09-10 19:15:53</sys_updated_on>
-        <table>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</table>
-        <value>{{step[fdb98691-4299-403f-b2ff-f06b6f08bf26].array}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>element</field>
-        <id>01070613833b2210faf03596feaad321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>15070613833b2210faf03596feaad3a6</sys_id>
+        <id>9ec03a53833f2210faf03596feaad37d</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>eec07a53833f2210faf03596feaad306</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</table>
-        <value>{{step[fdb98691-4299-403f-b2ff-f06b6f08bf26].array}}</value>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</table>
+        <value>{{step[a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec].array}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
-        <id>01070613833b2210faf03596feaad321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>51070613833b2210faf03596feaad3a6</sys_id>
+        <id>9ec03a53833f2210faf03596feaad37d</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>66c07a53833f2210faf03596feaad307</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__dont_treat_as_error__</field>
-        <id>01070613833b2210faf03596feaad321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>9d070613833b2210faf03596feaad3a5</sys_id>
+        <id>9ec03a53833f2210faf03596feaad37d</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>a2c07a53833f2210faf03596feaad307</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=01070613833b2210faf03596feaad321^sys_idNOT IN81070613833b2210faf03596feaad331"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=9ec03a53833f2210faf03596feaad37d^sys_idNOT INe2c03a53833f2210faf03596feaad39a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Convert String into Array">01070613833b2210faf03596feaad321</action>
-        <cid>fdb98691-4299-403f-b2ff-f06b6f08bf26</cid>
+        <action display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</action>
+        <cid>a2d45ab4-00ba-4a47-9681-6cd57d6bf5ec</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
@@ -1291,99 +1239,99 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>81070613833b2210faf03596feaad331</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>e2c03a53833f2210faf03596feaad39a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=81070613833b2210faf03596feaad331"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e2c03a53833f2210faf03596feaad39a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>81070613833b2210faf03596feaad331</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>11070613833b2210faf03596feaad37d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>81070613833b2210faf03596feaad331</document_key>
+        <document_key>e2c03a53833f2210faf03596feaad39a</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>d1070613833b2210faf03596feaad37d</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>6ac03a53833f2210faf03596feaad3bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=81070613833b2210faf03596feaad331"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e2c03a53833f2210faf03596feaad39a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a6c03a53833f2210faf03596feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e2c03a53833f2210faf03596feaad39a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>81070613833b2210faf03596feaad331</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>d9070613833b2210faf03596feaad37c</sys_id>
+        <id>e2c03a53833f2210faf03596feaad39a</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>62c03a53833f2210faf03596feaad3bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>81070613833b2210faf03596feaad331</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>9d070613833b2210faf03596feaad37c</sys_id>
+        <id>e2c03a53833f2210faf03596feaad39a</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>26c03a53833f2210faf03596feaad3bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
-        <id>81070613833b2210faf03596feaad331</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>dd070613833b2210faf03596feaad37d</sys_id>
+        <id>e2c03a53833f2210faf03596feaad39a</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>2ec03a53833f2210faf03596feaad3ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_81070613833b2210faf03596feaad331</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e2c03a53833f2210faf03596feaad39a</table>
         <value>{{action.separator}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>string</field>
-        <id>81070613833b2210faf03596feaad331</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>1d070613833b2210faf03596feaad37d</sys_id>
+        <id>e2c03a53833f2210faf03596feaad39a</id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a2c03a53833f2210faf03596feaad3be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_81070613833b2210faf03596feaad331</table>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e2c03a53833f2210faf03596feaad39a</table>
         <value>{{action.string}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_81070613833b2210faf03596feaad331^id=81070613833b2210faf03596feaad331"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=81070613833b2210faf03596feaad331"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=81070613833b2210faf03596feaad331"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=81070613833b2210faf03596feaad331^sys_idNOT INcd070613833b2210faf03596feaad334,dd070613833b2210faf03596feaad338"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e2c03a53833f2210faf03596feaad39a^id=e2c03a53833f2210faf03596feaad39a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e2c03a53833f2210faf03596feaad39a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2c03a53833f2210faf03596feaad39a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e2c03a53833f2210faf03596feaad39a^sys_idNOT INa2c03a53833f2210faf03596feaad39e,a2c03a53833f2210faf03596feaad3a2"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1424,10 +1372,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>string</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">81070613833b2210faf03596feaad331</model>
-        <model_id>81070613833b2210faf03596feaad331</model_id>
+        <model display_value="Script step">e2c03a53833f2210faf03596feaad39a</model>
+        <model_id>e2c03a53833f2210faf03596feaad39a</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_81070613833b2210faf03596feaad331</name>
+        <name>var__m_sys_hub_step_ext_input_e2c03a53833f2210faf03596feaad39a</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -1444,17 +1392,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>cd070613833b2210faf03596feaad334</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a2c03a53833f2210faf03596feaad39e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1507,10 +1455,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>separator</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">81070613833b2210faf03596feaad331</model>
-        <model_id>81070613833b2210faf03596feaad331</model_id>
+        <model display_value="Script step">e2c03a53833f2210faf03596feaad39a</model>
+        <model_id>e2c03a53833f2210faf03596feaad39a</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_81070613833b2210faf03596feaad331</name>
+        <name>var__m_sys_hub_step_ext_input_e2c03a53833f2210faf03596feaad39a</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -1527,17 +1475,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>dd070613833b2210faf03596feaad338</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a2c03a53833f2210faf03596feaad3a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1550,35 +1498,35 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=81070613833b2210faf03596feaad331^sys_idNOT IN19070613833b2210faf03596feaad356"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e2c03a53833f2210faf03596feaad39a^sys_idNOT IN26c03a53833f2210faf03596feaad3b3"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD19070613333b2210bb49b24e0c3c1855</name>
+        <name>FD26c03a53143f221062d43360378d9db2</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>9b544828833b2210faf03596feaad349</scope_name>
-        <serialized_content>{"FlowDesigner:FD19070613333b2210bb49b24e0c3c1855":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD19070613333b2210bb49b24e0c3c1855.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"c0189347-352e-4aef-bb31-f413a9cea827\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD19070613333b2210bb49b24e0c3c1855\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"488c1a08-5021-46aa-b5ed-1ff5d7ff3d91\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD26c03a53143f221062d43360378d9db2":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD26c03a53143f221062d43360378d9db2.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"false\",\"child_name\":\"Element\",\"uiUniqueId\":\"d685cfde-534f-4dcd-b6b1-f7688077448f\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD26c03a53143f221062d43360378d9db2\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"5029d847-6bb1-4a16-b267-851984dbe5a8\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d9070613833b2210faf03596feaad355</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>e6c03a53833f2210faf03596feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=488c1a08-5021-46aa-b5ed-1ff5d7ff3d91,co_type_name=FD19070613333b2210bb49b24e0c3c1855,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=c0189347-352e-4aef-bb31-f413a9cea827</attributes>
+        <attributes>child_label=Element,child_name=Element,child_type=string,child_type_label=String,child_uiUniqueId=5029d847-6bb1-4a16-b267-851984dbe5a8,co_type_name=FD26c03a53143f221062d43360378d9db2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=d685cfde-534f-4dcd-b6b1-f7688077448f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1612,12 +1560,12 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Array</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Script step">81070613833b2210faf03596feaad331</model>
-        <model_id>81070613833b2210faf03596feaad331</model_id>
+        <model display_value="Script step">e2c03a53833f2210faf03596feaad39a</model>
+        <model_id>e2c03a53833f2210faf03596feaad39a</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_81070613833b2210faf03596feaad331</name>
+        <name>var__m_sys_hub_step_ext_output_e2c03a53833f2210faf03596feaad39a</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -1634,17 +1582,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>19070613833b2210faf03596feaad356</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>26c03a53833f2210faf03596feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1657,121 +1605,37 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=81070613833b2210faf03596feaad331"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_81070613833b2210faf03596feaad331^sys_idNOT IN9d070613833b2210faf03596feaad359"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2c03a53833f2210faf03596feaad39a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e2c03a53833f2210faf03596feaad39a^sys_idNOT INaac03a53833f2210faf03596feaad3b6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>array</element>
         <help/>
         <hint/>
         <label>Array</label>
         <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_81070613833b2210faf03596feaad331</name>
+        <name>var__m_sys_hub_step_ext_output_e2c03a53833f2210faf03596feaad39a</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>9d070613833b2210faf03596feaad359</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>aac03a53833f2210faf03596feaad3b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=01070613833b2210faf03596feaad321^sys_idNOT IN81070613833b2210faf03596feaad329,85070613833b2210faf03596feaad324"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9ec03a53833f2210faf03596feaad37d^sys_idNOT IN96c03a53833f2210faf03596feaad38d,a2c03a53833f2210faf03596feaad392"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0d06091d-486c-4fbe-aefd-288869746e04</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>separator</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Separator</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Convert String into Array">01070613833b2210faf03596feaad321</model>
-        <model_id>01070613833b2210faf03596feaad321</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_01070613833b2210faf03596feaad321</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>81070613833b2210faf03596feaad329</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81070613833b2210faf03596feaad329"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=05900c2a-93a7-4505-9988-5c17c9ddfcb1</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=307ebce8-cafe-498c-a88e-45c4494ee80e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1807,10 +1671,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>String</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Convert String into Array">01070613833b2210faf03596feaad321</model>
-        <model_id>01070613833b2210faf03596feaad321</model_id>
+        <model display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</model>
+        <model_id>9ec03a53833f2210faf03596feaad37d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -1827,17 +1691,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>85070613833b2210faf03596feaad324</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>96c03a53833f2210faf03596feaad38d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1850,13 +1714,294 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=85070613833b2210faf03596feaad324"/>
-    <sys_hub_action_output action="delete_multiple" query="model=01070613833b2210faf03596feaad321^sys_idNOT IN51070613833b2210faf03596feaad38f,59070613833b2210faf03596feaad381,99070613833b2210faf03596feaad386"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=96c03a53833f2210faf03596feaad38d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5ef2e282-c748-472a-801e-c2e8bb03c556</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>separator</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Separator</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</model>
+        <model_id>9ec03a53833f2210faf03596feaad37d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a2c03a53833f2210faf03596feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a2c03a53833f2210faf03596feaad392"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9ec03a53833f2210faf03596feaad37d^sys_idNOT IN2ac03a53833f2210faf03596feaad3ce,2ac03a53833f2210faf03596feaad3d3,62c03a53833f2210faf03596feaad3fd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2ac03a53893f221010fdc5b40c45cdcd</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9b544828833b2210faf03596feaad349</scope_name>
+        <serialized_content>{"FlowDesigner:FD2ac03a53893f221010fdc5b40c45cdcd":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2ac03a53893f221010fdc5b40c45cdcd.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"460686b5-6c58-4a4c-bc4b-aac9522f8619\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD2ac03a53893f221010fdc5b40c45cdcd\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bf5ab223-88b4-4ede-b0fc-f631a62a87af\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eac03a53833f2210faf03596feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=05d14204-8e4d-4df2-90d2-efe334bd93b9,visible_in_ui=false</attributes>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=bf5ab223-88b4-4ede-b0fc-f631a62a87af,co_type_name=FD2ac03a53893f221010fdc5b40c45cdcd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=460686b5-6c58-4a4c-bc4b-aac9522f8619</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</model>
+        <model_id>9ec03a53833f2210faf03596feaad37d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>2ac03a53833f2210faf03596feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ac03a53833f2210faf03596feaad3ce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ac03a53833f2210faf03596feaad3ce"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ce8bcea0-0477-4fe3-b2e4-84ef2bccf85d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</model>
+        <model_id>9ec03a53833f2210faf03596feaad37d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>2ac03a53833f2210faf03596feaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ac03a53833f2210faf03596feaad3d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ac03a53833f2210faf03596feaad3d3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=84d8e993-9f67-45df-97cf-fc731232a262,visible_in_ui=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1894,10 +2039,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Convert String into Array">01070613833b2210faf03596feaad321</model>
-        <model_id>01070613833b2210faf03596feaad321</model_id>
+        <model display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</model>
+        <model_id>9ec03a53833f2210faf03596feaad37d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
         <next_element/>
         <order>3</order>
         <primary>false</primary>
@@ -1914,17 +2059,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>51070613833b2210faf03596feaad38f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>62c03a53833f2210faf03596feaad3fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1937,238 +2082,41 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=51070613833b2210faf03596feaad38f"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=51070613833b2210faf03596feaad38f"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FD59070613e93b22104e531e991ac8d080</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>9b544828833b2210faf03596feaad349</scope_name>
-        <serialized_content>{"FlowDesigner:FD59070613e93b22104e531e991ac8d080":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD59070613e93b22104e531e991ac8d080.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"755efb1b-af2c-4996-b4c2-28d7ba3a41db\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD59070613e93b22104e531e991ac8d080\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"14770e6f-9e46-49d3-ac56-85dccd5aae51\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>1d070613833b2210faf03596feaad380</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=14770e6f-9e46-49d3-ac56-85dccd5aae51,co_type_name=FD59070613e93b22104e531e991ac8d080,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=755efb1b-af2c-4996-b4c2-28d7ba3a41db</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>array</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Array</label>
-        <mandatory>true</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Convert String into Array">01070613833b2210faf03596feaad321</model>
-        <model_id>01070613833b2210faf03596feaad321</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>59070613833b2210faf03596feaad381</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:29:24</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=59070613833b2210faf03596feaad381"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=59070613833b2210faf03596feaad381"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=19ea1e07-432d-4120-8f31-542cdc979b72</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>__action_status__</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Action Status</label>
-        <mandatory>false</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Convert String into Array">01070613833b2210faf03596feaad321</model>
-        <model_id>01070613833b2210faf03596feaad321</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>99070613833b2210faf03596feaad386</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=99070613833b2210faf03596feaad386"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=99070613833b2210faf03596feaad386"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=01070613833b2210faf03596feaad321"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=01070613833b2210faf03596feaad321^sys_idNOT IN5d070613833b2210faf03596feaad3a8"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=62c03a53833f2210faf03596feaad3fd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62c03a53833f2210faf03596feaad3fd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9ec03a53833f2210faf03596feaad37d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9ec03a53833f2210faf03596feaad37d^sys_idNOT IN6ac07a53833f2210faf03596feaad322"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Convert String into Array">01070613833b2210faf03596feaad321</action_type_id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>5d070613833b2210faf03596feaad3a8</sys_id>
+        <action_type_id display_value=" Convert String into Array">9ec03a53833f2210faf03596feaad37d</action_type_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>6ac07a53833f2210faf03596feaad322</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5d070613833b2210faf03596feaad3a8"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_01070613833b2210faf03596feaad321^sys_idNOT IN05070613833b2210faf03596feaad32c,81070613833b2210faf03596feaad328"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6ac07a53833f2210faf03596feaad322"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d^sys_idNOT IN26c03a53833f2210faf03596feaad395,a2c03a53833f2210faf03596feaad391"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>separator</element>
         <help/>
         <hint/>
         <label>Separator</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>05070613833b2210faf03596feaad32c</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>26c03a53833f2210faf03596feaad395</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2178,68 +2126,45 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <label>String</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:36</sys_created_on>
-        <sys_id>81070613833b2210faf03596feaad328</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:06</sys_created_on>
+        <sys_id>a2c03a53833f2210faf03596feaad391</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:36</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_01070613833b2210faf03596feaad321"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_01070613833b2210faf03596feaad321^sys_idNOT IN99070613833b2210faf03596feaad385,99070613833b2210faf03596feaad3a0,9d070613833b2210faf03596feaad389"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9ec03a53833f2210faf03596feaad37d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d^sys_idNOT IN2ac03a53833f2210faf03596feaad3d2,2ec03a53833f2210faf03596feaad3d6,e2c07a53833f2210faf03596feaad302"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>array</element>
         <help/>
         <hint/>
         <label>Array</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>99070613833b2210faf03596feaad385</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>2ac03a53833f2210faf03596feaad3d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>__dont_treat_as_error__</element>
-        <help/>
-        <hint/>
-        <label>Don't Treat as Error</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>99070613833b2210faf03596feaad3a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2249,27 +2174,50 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <hint/>
         <label>Action Status</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_01070613833b2210faf03596feaad321</name>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:55:37</sys_created_on>
-        <sys_id>9d070613833b2210faf03596feaad389</sys_id>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>2ec03a53833f2210faf03596feaad3d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:55:37</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_01070613833b2210faf03596feaad321"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>netflix.tester</sys_created_by>
+        <sys_created_on>2025-09-10 21:58:07</sys_created_on>
+        <sys_id>e2c07a53833f2210faf03596feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:58:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9ec03a53833f2210faf03596feaad37d"/>
     <sys_hub_action_type_definition action="UPDATE">
-        <sys_id>07838e5783f72210faf03596feaad3bb</sys_id>
-        <latest_snapshot>01070613833b2210faf03596feaad321</latest_snapshot>
+        <sys_id>3b40fa13833f2210faf03596feaad3f7</sys_id>
+        <latest_snapshot>9ec03a53833f2210faf03596feaad37d</latest_snapshot>
         <compiler_build>glide-xanadu-07-02-2024__patch9a-06-23-2025_07-23-2025_2226.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
