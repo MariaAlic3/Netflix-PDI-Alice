@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1093514_netflix.moderator,x_1093514_netflix.administrator</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 20:11:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ccbcdb48333a210faf03596feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_app_application_0ccbcdb48333a210faf03596feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:11:50</sys_updated_on>
+        <title>Netflix</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sys_app_application_0ccbcdb48333a210faf03596feaad3f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_1093514_netflix.moderator,x_1093514_netflix.administrator</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-02 20:11:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ccbcdb48333a210faf03596feaad3f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Netflix</sys_name><sys_overrides/><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sys_app_application_0ccbcdb48333a210faf03596feaad3f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-02 20:11:50</sys_updated_on><title>Netflix</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-984509986</payload_hash>
+        <record_name>Netflix</record_name>
+        <reverted_from/>
+        <source>db1ed3e0833b6210faf03596feaad39e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 20:11:50</sys_created_on>
+        <sys_id>88cb81f48333a210faf03596feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990c0ea6c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:11:50</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>80cbcdb45a33a2109c5e2c8462706df9</update_guid>
+        <update_guid_history>80cbcdb45a33a2109c5e2c8462706df9:-984509986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Netflix">3ef06bef83b3a210faf03596feaad341</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 20:07:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>250b8e405ed44a40997b0628eadb3290</sys_id>
+        <sys_metadata>0ccbcdb48333a210faf03596feaad3f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sys_app_application_0ccbcdb48333a210faf03596feaad3f6</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0ccbcdb48333a210faf03596feaad3f6">88cb81f48333a210faf03596feaad380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:07:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

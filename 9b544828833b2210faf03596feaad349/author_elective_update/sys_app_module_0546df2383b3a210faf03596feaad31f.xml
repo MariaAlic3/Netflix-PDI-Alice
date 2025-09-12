@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Netflix">3c1145b883ff6210faf03596feaad372</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_properties_category">123TEXTQUERY321LIKENetflix^EQ<item endquery="false" field="123TEXTQUERY321" goto="false" newquery="false" operator="LIKE" or="false" value="Netflix"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Integration Propeties</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_properties_category</name>
+        <order>1500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>system_properties_ui.do?sysparm_title=OMDB API Integration Properties&amp;sysparm_category=Netflix</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 19:21:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0546df2383b3a210faf03596feaad31f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Integration Properties</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sys_app_module_0546df2383b3a210faf03596feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:19:25</sys_updated_on>
+        <timeline_page/>
+        <title>Integration Properties</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sys_app_module_0546df2383b3a210faf03596feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Netflix">3c1145b883ff6210faf03596feaad372</application><assessment/><device_type/><filter table="sys_properties_category">123TEXTQUERY321LIKENetflix^EQ<item endquery="false" field="123TEXTQUERY321" goto="false" newquery="false" operator="LIKE" or="false" value="Netflix"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Integration Propeties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sys_properties_category</name><order>1500</order><override_menu_roles>false</override_menu_roles><query>system_properties_ui.do?sysparm_title=OMDB API Integration Properties&amp;sysparm_category=Netflix</query><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-11 19:21:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0546df2383b3a210faf03596feaad31f</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Integration Properties</sys_name><sys_overrides/><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sys_app_module_0546df2383b3a210faf03596feaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-11 20:19:25</sys_updated_on><timeline_page/><title>Integration Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>356386261</payload_hash>
+        <record_name>Integration Properties</record_name>
+        <reverted_from/>
+        <source>4df5e0ab83376210faf03596feaad37e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 20:19:25</sys_created_on>
+        <sys_id>3ac32f6383f3a210faf03596feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993a6ed4400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:19:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bec32f63a9f3a21036de15f9e20e36f2</update_guid>
+        <update_guid_history>bec32f63a9f3a21036de15f9e20e36f2:356386261,57a26b637cf3a210fe61972d7a0ba896:1485570403,6342a363b4f3a210fd176717343f8430:356386261,b61857278bb3a2106ddc4dc50b75b3e8:246360468,e5e75be303b3a210411a84c01746e1bb:-70675682,c0a75727eab3a210ef7ac46675cc3540:2105110182,0cc617638fb3a210da22604ff850fe28:-901963240,39a613e344b3a21049f5a1c877a0d681:-703421194,47869fa328b3a2104b033d136d910e90:859783781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Integration Properties">7ff3e3e383f3a210faf03596feaad39c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 20:20:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>13f1a910a1e046b68c265a8fcd072224</sys_id>
+        <sys_metadata>0546df2383b3a210faf03596feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Properties</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_0546df2383b3a210faf03596feaad31f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0546df2383b3a210faf03596feaad31f">3ac32f6383f3a210faf03596feaad3f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:20:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
