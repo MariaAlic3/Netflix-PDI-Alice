@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Movies Suggestions">1d4c3b3f83f7e210faf03596feaad36f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:59:39</sys_created_on>
+        <sys_id>7c6d40808348f210faf03596feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Movies Suggestions</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7c6d40808348f210faf03596feaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:59:39</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sc_cat_item_catalog_7c6d40808348f210faf03596feaad312</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Movies Suggestions">1d4c3b3f83f7e210faf03596feaad36f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:59:39</sys_created_on><sys_id>7c6d40808348f210faf03596feaad312</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Movies Suggestions</sys_name><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sc_cat_item_catalog_7c6d40808348f210faf03596feaad312</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:59:39</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-187832147</payload_hash>
+        <record_name>Service Catalog.Movies Suggestions</record_name>
+        <reverted_from/>
+        <source>96c6af7383b7e210faf03596feaad309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:59:39</sys_created_on>
+        <sys_id>b86d4c808348f210faf03596feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993f1537b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:59:39</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>bc6d4c805248f2104add69ef5842987b</update_guid>
+        <update_guid_history>bc6d4c805248f2104add69ef5842987b:-187832147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Movies Suggestions">e9da9cc08388f210faf03596feaad3dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 18:58:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2df248bbb81c4dac89c15c9eab4f0b44</sys_id>
+        <sys_metadata>7c6d40808348f210faf03596feaad312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Movies Suggestions</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent display_value="">1d4c3b3f83f7e210faf03596feaad36f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7c6d40808348f210faf03596feaad312</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7c6d40808348f210faf03596feaad312">b86d4c808348f210faf03596feaad37c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 18:58:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

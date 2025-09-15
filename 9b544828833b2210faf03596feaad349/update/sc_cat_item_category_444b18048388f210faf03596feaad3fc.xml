@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Movies Suggestion">044b14048388f210faf03596feaad37d</sc_cat_item>
+        <sc_category display_value="Netflix">b5de1dc58337e210faf03596feaad3f2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 19:00:12</sys_created_on>
+        <sys_id>444b18048388f210faf03596feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix.Movies Suggestion</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sc_cat_item_category_444b18048388f210faf03596feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 19:00:12</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

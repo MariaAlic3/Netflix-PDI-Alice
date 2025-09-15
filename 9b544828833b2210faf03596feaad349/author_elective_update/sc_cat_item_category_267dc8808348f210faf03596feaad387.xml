@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Movies Suggestions">1d4c3b3f83f7e210faf03596feaad36f</sc_cat_item>
+        <sc_category display_value="Netflix">b5de1dc58337e210faf03596feaad3f2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 18:00:01</sys_created_on>
+        <sys_id>267dc8808348f210faf03596feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix.Movies Suggestions</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_update_name>sc_cat_item_category_267dc8808348f210faf03596feaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 18:00:01</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">9b544828833b2210faf03596feaad349</application>
+        <file_path/>
+        <instance_id>4f04e37d1b9e8a50e84d2f8dee4bcbae</instance_id>
+        <instance_name>dev272354</instance_name>
+        <name>sc_cat_item_category_267dc8808348f210faf03596feaad387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Movies Suggestions">1d4c3b3f83f7e210faf03596feaad36f</sc_cat_item><sc_category display_value="Netflix">b5de1dc58337e210faf03596feaad3f2</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 18:00:01</sys_created_on><sys_id>267dc8808348f210faf03596feaad387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Netflix.Movies Suggestions</sys_name><sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package><sys_policy/><sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope><sys_update_name>sc_cat_item_category_267dc8808348f210faf03596feaad387</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 18:00:01</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-2087573015</payload_hash>
+        <record_name>Netflix.Movies Suggestions</record_name>
+        <reverted_from/>
+        <source>96c6af7383b7e210faf03596feaad309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 18:00:03</sys_created_on>
+        <sys_id>3e7dcc808348f210faf03596feaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993f1595d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 18:00:03</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>327dcc800948f210b499506a2c498cfe</update_guid>
+        <update_guid_history>327dcc800948f210b499506a2c498cfe:-2087573015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Netflix.Movies Suggestions">a9da9cc08388f210faf03596feaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 18:58:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0a625166befe430e81497b9c821e6fc9</sys_id>
+        <sys_metadata>267dc8808348f210faf03596feaad387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix.Movies Suggestions</sys_name>
+        <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
+        <sys_scope_delete display_value="">3bea606495d94496955e282e7b82d2a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_267dc8808348f210faf03596feaad387</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_267dc8808348f210faf03596feaad387">3e7dcc808348f210faf03596feaad3fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 18:58:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
