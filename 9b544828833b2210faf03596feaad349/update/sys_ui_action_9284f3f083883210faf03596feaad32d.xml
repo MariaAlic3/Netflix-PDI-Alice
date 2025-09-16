@@ -34,6 +34,52 @@
         <order>100</order>
         <script><![CDATA[current.setValue("state", "3");
 current.update();
+
+
+var grMedia = new GlideRecord("x_1093514_netflix_media");
+grMedia.addEncodedQuery("title=" + current.getValue("title") + "^type=" + current.getValue("type") + "^release_year=", current.getValue("release_year") +
+"^sys_id!=" + current.getValue("sys_id"));
+
+// nunca esqueça de executar a query
+grMedia.query();
+
+// while
+while (grMedia.next()) {
+	grMedia.setValue("state", "7");
+	grMedia.setValue("genre", "");
+	grMedia.setValue("release_year", "");
+	grMedia.setValue("release_date", "");
+	grMedia.setValue("category", "");
+	grMedia.setValue("synopsis", "");
+	grMedia.setValue("writers", "");
+	grMedia.setValue("production", "");
+	grMedia.setValue("poster", "");
+	grMedia.setValue("website", "");
+	grMedia.setValue("average_rating", "");
+	grMedia.setValue("imdb_rating", "");
+	grMedia.setValue("metascore", "");
+	grMedia.setValue("awards", "");
+	grMedia.setValue("language", "");
+	grMedia.setValue("country", "");
+	grMedia.setValue("integration_stat0", "3");
+	grMedia.setValue("integration_error_message", "");
+
+	var grMediaActor = new GlideRecord("x_1093514_netflix_m2m_actors_medias");
+	grMediaActor.addEncodedQuery("x_1093514_netflix_media=") + grMedia.getValue("sys_id");
+    grMediaActor.query();
+    grMediaActor.deleteMultiple();
+ 
+    var grMediaDirector = new GlideRecord("x_1093514_netflix_m2m_director_media");
+    grMediaDirector.addEncodedQuery("x_1093514_netflix_media=" + grMedia.getValue("sys_id"));
+    grMediaDirector.query();
+    grMediaDirector.deleteMultiple();
+   
+
+
+	grMedia.update();
+}
+
+
 action.setRedirectURL(current);//vai permanecer na página]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -45,7 +91,7 @@ action.setRedirectURL(current);//vai permanecer na página]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9284f3f083883210faf03596feaad32d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1093514_netflix">9b544828833b2210faf03596feaad349</sys_package>
@@ -53,7 +99,7 @@ action.setRedirectURL(current);//vai permanecer na página]]></script>
         <sys_scope display_value="Netflix">9b544828833b2210faf03596feaad349</sys_scope>
         <sys_update_name>sys_ui_action_9284f3f083883210faf03596feaad32d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 19:12:07</sys_updated_on>
+        <sys_updated_on>2025-09-16 18:00:23</sys_updated_on>
         <table>x_1093514_netflix_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
